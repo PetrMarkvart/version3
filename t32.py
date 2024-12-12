@@ -1,4 +1,3 @@
-
 #Zadání:
 #Napiš program, který požádá uživatele o zadání čísla odpovídající známce (1 až 5). Program vypíše hodnocení:
 
@@ -9,9 +8,9 @@
 #5 = "Nedostatečně"
 #Pokud uživatel zadá jiné číslo než 1–5, vypiš: "Neplatná známka".
 
-znamka = input("Jakou jsi dostal známku?")
+znamka = int(input("Jakou jsi dostal známku?"))
 print(f"Dostal jsi znamku {znamka}")
-znamka = int(znamka)
+
 if znamka == 1:
         print("Výborně")
 elif znamka == 2:

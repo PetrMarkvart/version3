@@ -1,4 +1,4 @@
-vek = 10
+vek = int(input("Kolik ti je?"))
 print(f"Je ti {vek} let")
 if vek >= 18:  # > < >= <= ==
     print("Jsi dospělý1")
