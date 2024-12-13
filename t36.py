@@ -1,10 +1,11 @@
 #tipovačka pevnýho čísla
 import random
-
+vyherni_cislo = random.randint(0,100)
 
 #kod donekonečna vyzývá k zadání čísla.
 #po zadání čísla, bude sděleno, sdali je tipnuté číslo větší nebo menší než výherní číslo
 #jakmile bude výherní číslo tipnuto, bude vypsáno "Výhra!!!!!"
+
 vyherni_cislo = 25
 uhodli_jsme = False
 while uhodli_jsme == False:
