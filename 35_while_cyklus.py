@@ -8,9 +8,3 @@ while cislo < 21:
     cislo += 1
 print(cisla)
 
-cisla = []
-cislo = 1
-while cislo < 21:
-    cisla.append(cislo)
-    cislo += 1
-print(cisla)

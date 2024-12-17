@@ -32,6 +32,3 @@ while n < 7:
 print(soucet_lichych_cisel)
 '''
 
-cisla = [3, 4, 5, 20, 30]
-for cislo in cisla:
-    print(cislo*2)

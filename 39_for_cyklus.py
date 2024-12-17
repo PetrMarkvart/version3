@@ -1,3 +1,7 @@
+cisla = [3, 4, 5, 20, 30]
+for cislo in cisla:
+    print(cislo*2)
+
 zvirata = ["Kočka", "Pes", "Had"]
 #TADY NAPSAT FORCYKLUS KTERÝ POSTUPNĚ VYPÍŠE
 #"Kočka běhá"
