@@ -19,8 +19,8 @@ print(matika.factorial(4))
 from math import * #nedoporučuji používat - nevíme odkud se funkce vzala
 print(factorial(4))
 
-import Example47funkce
-Example47funkce.soucet_nasobek_podil(4,5)
+#import Example47funkce
+#Example47funkce.soucet_nasobek_podil(4,5)
 
 import os
 print(f"os.getlogin() {os.getlogin()}") #kdo je přihlášen k PC
