@@ -1,7 +1,7 @@
+'''
 Extra task 6:
 Úloha: Systém pro správu knihovny
 Vytvořte program, který umožňuje správu knihovny pomocí tříd a objektů.
-
 Požadavky:
 Třída Book
 Atributy:
@@ -9,7 +9,14 @@ title (název knihy)
 author (autor)
 year (rok vydání)
 is_borrowed (stav, jestli je kniha vypůjčená, výchozí hodnota je False)
+'''
+class: Book
+    def __init__(self, title, author, year):
+        self.title = title
+        self.author = author
+        self.year = year
 
+     '''
 Metody:
 borrow(): Nastaví is_borrowed na True, pokud kniha není vypůjčená, jinak zobrazí zprávu, že je již vypůjčená.
 return_book(): Nastaví is_borrowed na False.
@@ -42,4 +49,4 @@ Vyberte akci: 1
 1. Harry Potter (J.K. Rowling) - Dostupná
 2. The Hobbit (J.R.R. Tolkien) - Vypůjčená
 3. 1984 (George Orwell) - Dostupná
-'''
+''''''

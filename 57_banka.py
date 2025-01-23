@@ -5,7 +5,6 @@ class Banka:
         pass
        #třída Banka bude mít atribut jmeno a zustatek (počáteční zůstatek je 0)
 
-
     def vklad(self, castka):
         self.zustatek += castka
         #vložení částky k zůstatku

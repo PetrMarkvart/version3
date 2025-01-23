@@ -5,7 +5,6 @@ vsechny_jmena[1].pop(1)
 vsechny_jmena.pop(2)
 vsechny_jmena.pop(3)
 
-
 #   ŘÁDKY níže neupravujte
 jmena = ["Jura", ["Eliška"], "Katka"]
 assert jmena==vsechny_jmena, f"Chyba, vyšlo {vsechny_jmena}, ale mělo vyjít {jmena} "

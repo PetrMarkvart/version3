@@ -6,7 +6,7 @@ nested_list = [
 #pomocí indexování zvolte pole [5, 6, 5]
 #pozn. indexování je např. nested_list[2][0]
 print(nested_list[0][2][2])
-v = (nested_list[0][2][2])
+v = nested_list[0][2][2]
 print(v)
 # pomocí .count zjistěte, kolikrát se vyskytuje 5 v tomto poli.
 print(v.count(5))

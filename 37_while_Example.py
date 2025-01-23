@@ -19,7 +19,7 @@ print(f"Hotovo, číslo je {cislo}")
 #vykoná se porovnání na řádku 2. 5 < 5 NEPLATÍ, takže se skočí na řádek 5
 #vykoná se řádek 5 - vypíše se Hotovo, číslo je 5
 
-'''
+
 n = 0
 soucet_lichych_cisel = 0
 while n < 7:
@@ -30,5 +30,5 @@ while n < 7:
     print(f"Hodnota N je {n}")
     soucet_lichych_cisel += n
 print(soucet_lichych_cisel)
-'''
+
 

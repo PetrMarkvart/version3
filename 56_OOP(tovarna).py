@@ -16,7 +16,7 @@ class Tovarna:
     def pridat_smenu(self):
         self.pocet_zamestnancu += 30
 
-    def vymenit_knownow(self, jina_tovarna ):
+    def vymenit_knownow(self, jina_tovarna):
         self.knowhow.extend(jina_tovarna.knowhow)
         pass
 
