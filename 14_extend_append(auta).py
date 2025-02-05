@@ -10,7 +10,8 @@ print(f's Tatrou mame {len(auta)} auta')
 cinska_auta = ["Volvo", "BYD"]
 auta.extend(cinska_auta)
 print(f'po pridani cinskych aut: {auta}')
-auta.pop()
+
+auta.remove("Volvo")
 print(f'po .pop mame: {auta}')
 
 

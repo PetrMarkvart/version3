@@ -10,7 +10,7 @@ print(porovnej_delku_jmen(lide[2], lide[1]))
 porovnat_lambda = lambda hodnota1, hodnota2: hodnota1 > hodnota2
 print(porovnat_lambda(lide[1], lide[2]))
 #---------------------------
-
+'''
 def jsou_indexy_stejne(list_polozek):
     return list_polozek[2] == list_polozek[3]
 
@@ -19,3 +19,4 @@ print(jsou_indexy_stejne(lide))
 
 porovnat_indexy_lambda = lambda hodnota1, hodnota2: hodnota1 == hodnota2
 print(porovnat_indexy_lambda(list_polozek[2], list_polozek[3]))
+'''
